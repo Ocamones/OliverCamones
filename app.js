@@ -63,7 +63,7 @@ function efectoHabilidades(){
             pintarBarra(javascript, 12, 1, intervalJavascript);
         },100);
         const intervalWordpress = setInterval(function(){
-            pintarBarra(wordpress, 15, 2, intervalWordpress);
+            pintarBarra(wordpress,  15, 2, intervalWordpress);
         },100);
         const intervalPhotoshop = setInterval(function(){
             pintarBarra(photoshop, 15, 3, intervalPhotoshop);
