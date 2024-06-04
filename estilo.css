@@ -345,3 +345,81 @@ ul {padding-left: 30px;}
     width: 20px;
     height: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+/* styles.css */
+
+
+
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2e2f30;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-icon {
+    width: 500px; /* Ajusta el tamaño del ícono según tus necesidades */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+.download-icon img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+
+
+
+#container {
+    margin: 20px;
+    width: 400px;
+    height: 8px;
+  }
+
+
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Ubicación del tooltip */
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
